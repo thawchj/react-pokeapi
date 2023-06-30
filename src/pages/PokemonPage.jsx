@@ -76,7 +76,7 @@ const PokemonPage = () => {
                                             </div>
                                             <div>
                                                 <label className="text-size-18 text-bold">ABILITIES</label>
-                                                <div className='btn-type'>
+                                                <div className='btn-ability'>
                                                     {pokemonInfo.abilities.map((ability) => (
                                                         <button className="">{ability.ability.name}</button>
                                                     ))}

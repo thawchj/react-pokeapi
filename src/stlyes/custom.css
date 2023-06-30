@@ -139,7 +139,22 @@ body {
 
 .btn-type button {
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 30px;
+    padding: 8px 15px;
+    border: none;
+    color:  rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.btn-ability {
+    margin: 5px 0 10px 0;
+}
+
+.btn-ability button {
+    font-size: 16px;
+    border-radius: 30px;
     padding: 8px 15px;
     border: none;
     color: rgb(28, 28, 28);
@@ -147,6 +162,7 @@ body {
     margin-right: 5px;
     font-weight: 600;
 }
+
 
 /* info pokemon */
 .card-info-poke {
